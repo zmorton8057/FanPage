@@ -1,0 +1,103 @@
+/*    Hex Colors: #FFAC1D:Orange    #455650:Green  #F7F6E7:light-beige  #DFDDC5:beige    */ 
+
+h1 {
+    color: #455650;
+    font-size: 38px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
+    word-spacing: 30px;
+    background-image: linear-gradient(-45deg, #F7F6E7, #FFAC1D);
+}
+
+h2 {
+color: #455650;
+font-size: 30px;
+font-family: monospace;
+font-weight: bold;
+text-align: center;
+background-image: linear-gradient(-45deg, #F7F6E7, #FFAC1D);
+}
+
+body {
+    background-image: url(https://4.bp.blogspot.com/_lcDalD63nts/S8CHCGVZxnI/AAAAAAAABag/jo4zSE5wWhk/s1600/johnwilliams.jpg);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, minmax(150px, auto));
+    grid-gap: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    background-position: absolute, fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+.image {
+    margin: 20px 20px 20px 20px;
+    border-style: outset;
+    border-color: #455650;
+    border-width: 15px;
+}
+
+.box-design {
+    color: #455650;
+    background-color: #F7F6E7;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-style: outset;
+    border-color: #455650;
+    border-width: 15px;
+    border-radius: 15%;
+}
+
+.header-border{
+    border-radius: 25%;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-style: outset;
+    border-color: #455650;
+    border-width: 10px;
+}
+.one{
+    grid-column: 1 / 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.two{
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
+}
+.aside{
+    grid-column: 1 / 2;
+    grid-row: 2 / 7;
+}
+.aside-right{
+    grid-column: 6 / 7;
+    grid-row: 2 / 4;
+}
+.aside-right-middle{
+    grid-column: 6 / 7;
+    grid-row: 4 / 5;
+}
+.aside-right-bottom{
+    grid-column: 6 / 7;
+    grid-row: 5 / 7;
+}
+.three-head{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+.four-head{
+    grid-column: 4 / 6;
+    grid-row: 4 / 5;
+}
+.three{
+    grid-column: 2 / 4;
+    grid-row: 5 / 7;
+}
+.four{
+    grid-column: 4 / 6;
+    grid-row: 5 / 7;
+}
